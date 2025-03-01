@@ -1,13 +1,19 @@
 name: stroke_predictor_app
-description: MVP for Stroke Type Prediction (Offline)
-publish_to: 'none'
+description: A stroke prediction application for medical professionals
+version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=2.17.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
